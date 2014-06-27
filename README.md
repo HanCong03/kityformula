@@ -3,9 +3,15 @@
 Kity Formula 是一个为降低在WEB上编辑和呈现数学公式的复杂度而产生的项目。利用Kity Formula，你可以毫不费力地在你的WEB页面中呈现出效果理想的数学公式，不仅如此，Kity Formula还能在你的页面内创建一个编辑器，以帮助你的用户以极低的成本创建数学公式。
 
 ## 内容导航
-* [名称约定](#name_conventions)
+* [项目简介](#项目简介)
 * [快速入门](#快速入门)
 * []
+
+## 项目简介
+Kity Formula 包含有3个完整的子项目，分别是：
+* [kf-render](https://github.com/fex-team/kf-render) —— 数学公式呈现引擎，负责在页面指定页面区域内渲染公式图形。
+* [kf-parser](https://github.com/fex-team/kf-parser) —— 数学公式解析器，负责把各种“表示法”表示的公式解析成为kf-render可以理解的格式。
+* [kf-editor](https://github.com/fex-team/kf-editor) —— 数学公式编辑器，提供了一个简单易用的数学公式编辑器。
 
 ## 快速入门
 你可以通过以下途径获取最新的发行版:
