@@ -4,14 +4,27 @@ Kity Formula 是一个为降低在WEB上编辑和呈现数学公式的复杂度�
 
 ## 内容导航
 * [项目简介](#项目简介)
+* [名称约定](#名称约定)
 * [快速入门](#快速入门)
-* []
+* [Bug和功能性建议](#Bug和功能性建议)
+* [兼容性列表](#兼容性列表)
+* [特性](#特性)
+* [版权与许可](#版权与许可)
 
 ## 项目简介
 Kity Formula 包含有3个完整的子项目，分别是：
+
 * [kf-render](https://github.com/fex-team/kf-render) —— 数学公式呈现引擎，负责在页面指定页面区域内渲染公式图形。
 * [kf-parser](https://github.com/fex-team/kf-parser) —— 数学公式解析器，负责把各种“表示法”表示的公式解析成为kf-render可以理解的格式。
 * [kf-editor](https://github.com/fex-team/kf-editor) —— 数学公式编辑器，提供了一个简单易用的数学公式编辑器。
+
+每个子项目的详细介绍可以进入其项目主页查看，你可以根据自己的需要有选择地组合使用这三个项目。
+
+## 名称约定
+为了便于描述，对Kity Formula相关文字资料内出现的名词做如下约定：
+
+* kf: Kity Formula的简写， 代表Kity Formula整个项目
+* kf-xxx: 其中的xxx可以是"render"、"parser"、"editor"中的一个，代表Kity Formula下的某一个子项目。比如： kf-render 就代表Kity Formula下的render子项目。同时，为了便于书写，Kity Formula下的子项目也会被简写为xxx的形式，而不是kf-xxx。比如：kf-render项目可以被简写为：render。
 
 ## 快速入门
 你可以通过以下途径获取最新的发行版:
@@ -25,7 +38,7 @@ Kity Formula 包含有3个完整的子项目，分别是：
 你可以在[issues](https://github.com/fex-team/kityformula/issues)中向我们提出在使用过程中遇到的BUG以及功能性建议。
 
 ## 兼容性列表
-Kity Formula Render 支持以下浏览器：
+Kity Formula 下的所有子项目都支持以下浏览器：
 
 ![Browser](http://fex-team.github.io/kityformula/assets/images/browser.png) 
 
